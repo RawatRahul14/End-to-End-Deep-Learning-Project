@@ -13,3 +13,89 @@
 [2024-05-15 20:19:05,453: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
 [2024-05-15 20:19:10,078: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
 [2024-05-15 20:19:10,879: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<]
+[2024-05-16 17:53:28,844: WARNING: module_wrapper: From c:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-05-16 18:12:16,789: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-16 18:12:16,792: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-16 18:12:16,794: INFO: common: created directory at: artifacts]
+[2024-05-16 18:12:16,795: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-16 18:12:17,216: WARNING: module_wrapper: From c:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-05-16 18:12:17,442: WARNING: module_wrapper: From c:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-05-16 18:12:19,597: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-16 18:13:35,286: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-16 18:13:35,289: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-16 18:13:35,290: INFO: common: created directory at: artifacts]
+[2024-05-16 18:13:35,291: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-16 18:13:35,768: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-16 18:24:19,026: WARNING: module_wrapper: From C:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-05-16 18:24:19,950: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2024-05-16 18:24:19,950: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-16 18:24:19,950: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-16 18:24:19,950: INFO: common: created directory at: artifacts]
+[2024-05-16 18:24:19,950: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-16 18:24:19,950: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-16 18:24:23,563: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-16 18:24:24,344: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<]
+[2024-05-16 18:24:24,344: INFO: main: ****************************************]
+[2024-05-16 18:24:24,344: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-16 18:24:24,344: ERROR: main: PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Project\End-to-End-Deep-Learning-Project\main.py", line 21, in <module>
+    obj.main()
+TypeError: PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given
+[2024-05-16 18:25:38,128: WARNING: module_wrapper: From C:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-05-16 18:25:38,934: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2024-05-16 18:25:38,934: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-16 18:25:38,942: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-16 18:25:38,942: INFO: common: created directory at: artifacts]
+[2024-05-16 18:25:38,942: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-16 18:25:38,942: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-16 18:25:42,024: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-16 18:25:42,826: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<]
+[2024-05-16 18:25:42,826: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-16 18:25:42,826: ERROR: main: PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Project\End-to-End-Deep-Learning-Project\main.py", line 20, in <module>
+    obj.main()
+TypeError: PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given
+[2024-05-16 18:30:18,895: WARNING: module_wrapper: From C:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-05-16 18:30:19,720: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2024-05-16 18:30:19,720: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-16 18:30:19,728: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-16 18:30:19,728: INFO: common: created directory at: artifacts]
+[2024-05-16 18:30:19,728: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-16 18:30:19,728: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-16 18:30:23,212: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-16 18:30:24,047: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<]
+[2024-05-16 18:30:24,047: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-16 18:30:24,047: ERROR: main: PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "C:\Users\rahul\Desktop\Project\End-to-End-Deep-Learning-Project\main.py", line 20, in <module>
+    obj.main()
+TypeError: PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given
+[2024-05-16 18:33:03,691: WARNING: module_wrapper: From C:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-05-16 18:33:04,506: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2024-05-16 18:33:04,506: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-16 18:33:04,506: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-16 18:33:04,506: INFO: common: created directory at: artifacts]
+[2024-05-16 18:33:04,506: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-16 18:33:04,514: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-16 18:33:08,005: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-16 18:33:08,797: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<]
+[2024-05-16 18:33:08,797: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-16 18:33:08,797: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-16 18:33:08,797: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-16 18:33:08,797: INFO: common: created directory at: artifacts]
+[2024-05-16 18:33:08,797: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-16 18:33:09,100: WARNING: module_wrapper: From C:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-05-16 18:33:09,188: WARNING: module_wrapper: From C:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-05-16 18:33:09,799: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-16 18:33:10,024: INFO: main: >>>>>> stage Prepare base model completed <<<<<<]
