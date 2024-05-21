@@ -1,0 +1,16 @@
+[2024-05-21 18:18:47,309: WARNING: module_wrapper: From c:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-05-21 18:51:42,799: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-21 18:51:42,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-21 18:51:42,802: INFO: common: created directory at: artifacts]
+[2024-05-21 18:51:42,803: INFO: common: created directory at: artifacts\training]
+[2024-05-21 18:51:42,877: WARNING: module_wrapper: From c:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-05-21 18:51:42,936: WARNING: module_wrapper: From c:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-05-21 18:51:52,492: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-21 18:51:52,494: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-21 18:51:52,495: INFO: common: created directory at: artifacts]
+[2024-05-21 18:51:52,495: INFO: common: created directory at: artifacts\training]
+[2024-05-21 18:51:53,505: WARNING: module_wrapper: From c:\Users\rahul\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
